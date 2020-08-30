@@ -1,0 +1,21 @@
+{
+  "name": "tailwindcss-setup",
+  "version": "1.0.0",
+  "main": "src/index.html",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "dev": "parcel -p 5500 src/index.html",
+    "build": "parcel build --no-source-maps src/index.html ",
+    "clean": "rm -r dist .cache"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "tailwindcss": "^1.7.6"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.10.4",
+    "parcel-bundler": "^1.12.4"
+  }
+}
